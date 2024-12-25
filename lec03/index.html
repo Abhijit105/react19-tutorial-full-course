@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello React</title>
+  </head>
+  <body>
+    <!-- step1: create a root div -->
+    <div id="root"></div>
+
+    <script>
+      // step2: retreive the root div
+      const root = document.getElementById('root')
+      // step3:give the root a text content
+      // root.textContent = 'Hello React!'
+      // step3: create a div element
+      const element = document.createElement('div')
+      // step4: put div on the root
+      root.appendChild(element)
+      // step5: give the element a text content
+      element.textContent = 'Hello React!'
+    </script>
+  </body>
+</html>
